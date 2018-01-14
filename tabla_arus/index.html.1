@@ -1,0 +1,968 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><script type="text/javascript" src="/Web/faces/javax.faces.resource/generales/scripts/jquery/scripts/jquery-1.4.2.min.js?versionJavaScripts=JS_V019"></script><script type="text/javascript" src="/Web/faces/javax.faces.resource/generales/scripts/jquery/scripts/jquery-ui-1.8.custom.min.js?versionJavaScripts=JS_V019"></script><script type="text/javascript" src="/Web/faces/javax.faces.resource/generales/scripts/jquery/scripts/jquery.validate.min.js?versionJavaScripts=JS_V019"></script><script type="text/javascript" src="/Web/faces/javax.faces.resource/generales/scripts/jquery/scripts/jquery.validate.messages_es.js?versionJavaScripts=JS_V019"></script><script type="text/javascript" src="/Web/faces/javax.faces.resource/generales/scripts/jquery/scripts/jquery.json-2.2.min.js?versionJavaScripts=JS_V019"></script><script type="text/javascript" src="/Web/faces/javax.faces.resource/generales/scripts/validadores.js?versionJavaScripts=JS_V019"></script><script type="text/javascript" src="/Web/faces/javax.faces.resource/generales/scripts/jquery/scripts/jquery.corner.js?versionJavaScripts=JS_V019"></script><script type="text/javascript" src="/Web/faces/javax.faces.resource/jsf.js?ln=javax.faces"></script><script type="text/javascript" src="/Web/faces/javax.faces.resource/scripts/componentes/googleAnalyticsEnlace.js"></script><script type="text/javascript" src="/Web/faces/javax.faces.resource/scripts/principal/menu.js?versionJavaScripts=JS_V019"></script><script type="text/javascript" src="/Web/faces/javax.faces.resource/scripts/componentes/ayudaContenido.js?versionJavaScripts=JS_V019"></script><script type="text/javascript" src="/Web/faces/javax.faces.resource/scripts/login/jquery.md5.js?versionJavaScripts=JS_V019"></script><script type="text/javascript" src="/Web/faces/javax.faces.resource/generales/scripts/jquery/scripts/jquery.blockUI.js?versionJavaScripts=JS_V019"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="refresh" content="600;url=/Web/faces/index.xhtml" />
+	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+    <link href="/Web/faces/javax.faces.resource/89/generales/scripts/jquery/css/jquery-ui-1.8.custom.css?versionCSS=CCS_V007" rel="stylesheet" type="text/css" />
+    <link href="/Web/faces/javax.faces.resource/89/generales/css/suaporte.css?versionCSS=CCS_V007" rel="stylesheet" type="text/css" />
+
+	<STYLE TYPE="text/css" MEDIA="screen, projection">
+</STYLE>
+	<link rel="shortcut icon" href="/Web/faces/javax.faces.resource/89/generales/images/SuAporte.ico" />
+	<title>SuAporte :: Transaccional</title>
+
+	<script type="text/javascript">
+		     jQuery(function() {
+		         jQuery('.rounded').corner('8px');
+		         
+		     });
+        </script>	
+	<!-- Cuenta Google Analytics -->
+		
+	<style type="text/css">
+.toggler {
+	width: 50px;
+	height: 50px;
+}
+
+#effect {
+	width: 240px;
+	height: 135px;
+	padding: 0.4em;
+	position: relative;
+}
+
+.ui-effects-transfer {
+	border: 2px dotted gray;
+}
+
+.superior {
+	vertical-align: top;
+	padding-top: 10px;
+}
+</style></head><body>
+	<div id="container">
+		<div id="top">
+	<div>
+	
+	<table cellspacing="0" cellpadding="0" width="100%">
+		<tr>
+			<td valign="top">
+			<a target="_blank"><img src="/Web/faces/javax.faces.resource/89/generales/images/logoEnlaceSuAporte.jpg" height="78" style=" border-top-width: medium; border-top-style: none;  margin-top: 3px;" width="212" /></a></td>
+			<td align="right">
+				<a href="http://www.arus.com.co/" target="_blank"><img src="/Web/faces/javax.faces.resource/89/generales/images/suAporte.jpg" height="78" style="right:3in; right:3in; border-top-width: 0px; border-top-style: 0px; border:none;" width="212" />
+				</a>	
+			</td>
+		</tr>
+	</table>
+	</div>
+
+	<div id="cuadroBienvenida">
+	  	<div id="opcionesTop">
+<form id="opcionesTopForm" name="opcionesTopForm" method="post" action="/Web/faces/index.xhtml;jsessionid=7D35BAF4E043C8E9F906EDF9029F36AD" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="opcionesTopForm" value="opcionesTopForm" />
+<a href="#" onclick="mojarra.jsfcljs(document.getElementById('opcionesTopForm'),{'opcionesTopForm:j_idt32':'opcionesTopForm:j_idt32'},'');return false" class="LinkDetails"><span class="opcionesTop">Inicio</span></a><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="622011702548560449:8302580114407536293" autocomplete="off" />
+</form>
+		</div>
+	</div>
+		</div>
+		<div id="bienvenida">
+<form id="formBienvenida" name="formBienvenida" method="post" action="/Web/faces/index.xhtml;jsessionid=7D35BAF4E043C8E9F906EDF9029F36AD" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formBienvenida" value="formBienvenida" />
+<input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="622011702548560449:8302580114407536293" autocomplete="off" />
+</form>
+		</div><table style="margin: auto !important; width: 910px;">
+<tbody>
+<tr>
+<td class="superior"><span id="leftnavContenedor" style="width: 198px;">
+<form id="form_menu" name="form_menu" method="post" action="/Web/faces/index.xhtml;jsessionid=7D35BAF4E043C8E9F906EDF9029F36AD" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="form_menu" value="form_menu" />
+<input id="recienIniciada" type="hidden" name="recienIniciada" value="false" /><input id="recienIniciadaValidacionCCF" type="hidden" name="recienIniciadaValidacionCCF" value="false" /><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="622011702548560449:8302580114407536293" autocomplete="off" />
+</form>
+
+<div id="modalMensajeExonerado" style="display: none;"><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<body>
+
+	<div id="modalExonerado" style="display: none;">
+<form id="formModalExoneracionParafiscales" name="formModalExoneracionParafiscales" method="post" action="/Web/faces/index.xhtml;jsessionid=7D35BAF4E043C8E9F906EDF9029F36AD" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formModalExoneracionParafiscales" value="formModalExoneracionParafiscales" />
+<input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="622011702548560449:8302580114407536293" autocomplete="off" />
+</form>
+
+
+	</div>
+
+	<script type="text/javascript">
+			function mostrarModalExonerados(){
+				
+				jQuery("#modalExonerado").dialog( {
+					closeOnEscape: false,
+					resizable : false,
+					width : 400,
+					show : "slide",
+					title: "Actualización Aportante",
+					modal : true			
+				});
+			}
+
+			function validarModalExoneracion(){
+
+				if( jQuery("#formModalExoneracionParafiscales").validate().form() ){
+					jQuery('#modalExonerado').dialog('close');
+					return true;
+				}
+				return false;	
+			}
+			function cerrarModalExonerar(){
+				var valor = $("#selectExoneradosParafiscales").val();			    
+			    var valor = $("#selectExoneradosParafiscales option:selected").html();
+			}
+			function validarFormularioModalExonerados(){
+				var reglasModalExoneracionParafiscales = {
+					    'elementos': {
+					    	'selectExoneradosParafiscales': {
+					            		'requerido': true,
+					            		'mensajes':{
+					            			'requerido':'Es necesario seleccionar si es o no exonerado del pago de parafiscales.'
+					            		}
+					            }
+					    }
+					};
+				var errores;
+				errores = jQuery().validar(reglasModalExoneracionParafiscales).tieneErrores();
+				if(errores == true){return true; }
+				
+			}	
+
+			function registrar( el, ev ){
+				var errors = false;
+				
+				if ( !el || !ev ) {	return false;	}
+
+				errors = validarFormularioModalExonerados();
+				if( errors == true ){
+					jQuery("#errorMensj").show();
+					jQuery( "#msjCampos" ).text("Se\u00f1or Usuario, verifique que los campos obligatorios esten diligenciados en todas las secciones");
+				    jQuery( "#errorCampos" ).dialog( {"modal": true, title:'Validación campos', "buttons": {"Aceptar": function() { jQuery( this ).dialog( "close" ); }	} } );
+					return false;
+				}
+				if ( errors == false ) { 
+
+
+			    	jQuery( ".required" ).each( function() {
+			    		if ( jQuery.trim( jQuery( "#" + this.id ).val() ) == "" ) {
+					    	jQuery( "#" + this.id ).parent().append/*.after*/( '<div class="error"> Este campo es requerido. </div>' );
+					    	errors = true;
+			    		}
+				    });
+				}
+				
+
+				if ( true === errors ) {
+					return false;
+				}
+
+				
+
+
+
+			}
+		
+			</script>
+
+</body>
+</html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<body>
+
+	<div id="modalValidacionCCF1429" style="display: none;">
+<form id="formModalValidacionCCF1429" name="formModalValidacionCCF1429" method="post" action="/Web/faces/index.xhtml;jsessionid=7D35BAF4E043C8E9F906EDF9029F36AD" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formModalValidacionCCF1429" value="formModalValidacionCCF1429" />
+<input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="622011702548560449:8302580114407536293" autocomplete="off" />
+</form>
+
+
+	</div>
+
+	<script type="text/javascript">
+			function mostrarValidacionCCF1429(){
+				jQuery("#modalValidacionCCF1429").dialog( {
+					closeOnEscape: false,
+					resizable : false,
+					width : 400,
+					show : "slide",
+					title: "Actualización Aportante",
+					modal : true			
+				});
+			}
+
+			function validarModal(){
+
+				if( jQuery("#formModalValidacionCCF1429").validate().form() ){
+					jQuery('#modalValidacionCCF1429').dialog('close');
+					return true;
+				}
+				return false;	
+			}
+			function cerrarModalCCF(){
+				var valor = $("#selectValidacionCCF1429").val();			    
+			    var valor = $("#selectValidacionCCF1429 option:selected").html();
+			}
+			function validarFormularioValidacionCCF1429(){
+				var reglasModalValidacionCCF1429 = {
+					    'elementos': {
+					    	'selectValidacionCCF1429': {
+					            		'requerido': true,
+					            		'mensajes':{
+					            			'requerido':'Es necesario seleccionar si es o no exonerado del pago de parafiscales.'
+					            		}
+					            }
+					    }
+					};
+				var errores;
+				errores = jQuery().validar(reglasModalValidacionCCF1429).tieneErrores();
+				if(errores == true){return true; }
+				
+			}	
+
+			function registrar( el, ev ){
+				var errors = false;
+				
+				if ( !el || !ev ) {	return false;	}
+
+				errors = validarFormularioValidacionCCF1429();
+				if( errors == true ){
+					jQuery("#errorMensj").show();
+					jQuery( "#msjCampos" ).text("Se\u00f1or Usuario, verifique que los campos obligatorios esten diligenciados en todas las secciones");
+				    jQuery( "#errorCampos" ).dialog( {"modal": true, title:'Validación campos', "buttons": {"Aceptar": function() { jQuery( this ).dialog( "close" ); }	} } );
+					return false;
+				}
+				if ( errors == false ) { 
+
+
+			    	jQuery( ".required" ).each( function() {
+			    		if ( jQuery.trim( jQuery( "#" + this.id ).val() ) == "" ) {
+					    	jQuery( "#" + this.id ).parent().append/*.after*/( '<div class="error"> Este campo es requerido. </div>' );
+					    	errors = true;
+			    		}
+				    });
+				}
+				
+
+				if ( true === errors ) {
+					return false;
+				}
+			}
+		
+			</script>
+
+</body>
+</html> 
+</div>
+
+<!-- Funcionalidad para el manejo de estilo -->
+<script type="text/javascript">
+	jQuery( function() {
+	//Creando el menu del Acordion        	
+        	jQuery('.acordion').accordion({
+        	    active: false,
+        	    alwaysOpen: false,
+        	    collapsible: true,
+        	    animated: false,
+        	    autoHeight: false
+        	});
+        	
+        	jQuery( ".rounded" ).corner( "8px" );
+
+        	jQuery("div.accordian").accordion({
+        	    autoHeight: false,
+        	    collapsible: true,
+        	    active: false
+        	});
+
+        	//Iniciando el acordion de Mas Servicios
+        	jQuery('#menuMasServicios').accordion({
+        	    header: 'div.title',
+        	    active: false,
+        	    collapsible: true,
+        	    animated: true,
+        	    autoHeight: false
+        	});
+        	
+        	jQuery( "#menuMasServicios" ).corner( "8px" );
+
+        	// Crea menu favoritos, si existe
+        	jQuery('#favoritosMenu').accordion({
+        	    header: 'div.title',
+        	    active: false,
+        	    collapsible: true,
+        	    animated:false,
+        	    autoHeight: false
+        	});
+        	
+        	jQuery( "#menuFavoritos" ).corner( "8px" );
+
+        	// cambiar color menu
+	        jQuery("#menu .ui-accordion-header a").click( function() {
+	        	jQuery("#menu .ui-accordion-header a").removeClass('menuActivo');
+	        	jQuery(this).addClass('menuActivo');
+        	} );
+	});
+</script></span></td>
+<td class=" superior"><span id="content" style="width: 400px;">
+<form id="auth" name="auth" method="post" action="/Web/faces/index.xhtml;jsessionid=7D35BAF4E043C8E9F906EDF9029F36AD" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="auth" value="auth" />
+<!-- Agregue action="j_security_check" --><input id="ipPublicaCliente" type="hidden" name="ipPublicaCliente" value="ip" /><input id="politicaTratamientoDatosPersonales" type="hidden" name="politicaTratamientoDatosPersonales" value="false" />
+    <table width="65%" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td align="center" valign="top">
+				<div id="cuadro1" class="rounded" style="margin-top: 0px;">
+		  			<div id="mensajes" class="menInformacion" style="display:none;"><span id="messages"></span>
+					</div>
+					<div id="text">
+						<p align="center">
+							<span class="titNaranja_1"> 
+								<span class="Estilo4">Bienvenido</span> <br />
+							</span> 
+							<span class="TextCenter Estilo3 Estilo2"><img src="/Web/faces/javax.faces.resource/89/generales/images/bannerLogin.jpg" style="margin-left:10px;width:515px;height:117px;" />
+							</span>
+						</p>
+					</div>
+				</div>
+					
+					<div id="cuadro1" class="rounded" align="left">
+						<table border="0" align="center" cellpadding="0" cellspacing="0">
+							<tr>
+								<td colspan="2" valign="top" class="titNaranja_1">
+									Autenticarse al sistema
+								</td>
+								<td class="titNaranja_1">
+	<link href="/Web/faces/javax.faces.resource/89/generales/css/ayudas/jquery.window.css?versionCSS=CCS_V007" rel="stylesheet" type="text/css" /><span id="includeAyuda019:A14-panelAyuda"><input id="includeAyuda019:A14-nameHelp" type="hidden" name="includeAyuda019:A14-nameHelp" /><a id="includeAyuda019:A14-btn_Ayuda" href="#" onclick="jsf.util.chain(this,event,'mostrarContenidoAyuda(this, event,\'A14\',\'includeAyuda019\'); return  false;','mojarra.jsfcljs(document.getElementById(\'auth\'),{\'includeAyuda019:A14-btn_Ayuda\':\'includeAyuda019:A14-btn_Ayuda\'},\'\')');return false"><img src="/Web/faces/javax.faces.resource/89/generales/images/botones_pequenos/iconAyuda.png" title="Ayuda" class="alineacionButtonHelp" /></a></span>
+			
+			<div id="divInsert"></div>
+			<div id="ayudaContainer" style="display: none;">
+				<div id="A14-modal-ayuda" title="Ayuda">
+					<div id="divVacio">
+						<div id="borderGridConsulta" class="container" style="width: 98%"></div>
+						<center><input id="includeAyuda019:A14-cerrar" type="image" src="/Web/faces/javax.faces.resource/89/generales/images/botones/bot_regresar.jpg" name="includeAyuda019:A14-cerrar" style="border: 0;" onclick="cerrar(this, event,'A14'); return;" />
+						</center><input id="includeAyuda019:A14-textoAyuda" type="hidden" name="includeAyuda019:A14-textoAyuda" />
+					</div>
+				</div>
+			</div>
+
+			<div style="display: none;">
+				<div id="dialog-errorAyuda" title="Error al mostrar la ayuda" class="menInformacionModal"><span id="includeAyuda019:ErrorAyuda">Error con la ayuda</span>
+				</div>
+			</div>
+								</td>
+								
+							</tr>
+							
+							<tr>
+								<td width="340" valign="top">
+									<table width="339" border="0" align="center" cellpadding="0" cellspacing="0">
+										<tr>
+											<td class="TD_tablas">
+												<table width="100%" border="0" cellspacing="0" cellpadding="0">
+													<tr>
+														<td class="titAzul_1">Iniciar sesión</td>
+													</tr>
+													<tr>
+														<td><img src="/Web/faces/javax.faces.resource/89/generales/images/img_line_Titulos.gif" height="11" width="100%" /><img src="/Web/faces/javax.faces.resource/89/generales/images/imgSpacer.gif" height="11" width="20" />
+														</td>
+													</tr>
+													<tr>
+														<td valign="top">
+															<table width="300" height="146" border="0" align="center" cellpadding="0" cellspacing="0">
+																<tr>
+																	<td width="170" valign="top">
+																		<table width="100%" border="0" cellspacing="1" cellpadding="0">
+																			<tr>
+																				<td colspan="2" class="TextLeft"> </td>
+																			</tr>
+																			<tr>
+																				<td colspan="2" class="TextLeft">Documento empresa</td>
+																			</tr>
+																			<tr>
+																				<td valign="top"><select id="tipoDocumentoEmpresa" name="tipoDocumentoEmpresa" class="fieldEdit dummyField" size="1">	<option value="CC">Cédula de ciudadanía</option>
+	<option value="NI" selected="selected">NIT</option>
+	<option value="CE">Cédula de extranjería</option>
+	<option value="PA">Pasaporte</option>
+	<option value="TI">Tarjeta de identidad</option>
+	<option value="CD">Carné diplomático</option>
+	<option value="SC">Salvoconducto de permanencia</option>
+	<option value="PE">Permiso especial de permanencia</option>
+</select>
+																				</td>
+																				<td valign="top"><input id="numeroDocumentoEmpresa" type="text" name="numeroDocumentoEmpresa" value="" class="fieldEdit dummyField required" maxlength="16" size="16" />
+																				</td>
+																			</tr>
+																			<tr>
+																				<td colspan="2" class="TextLeft">Documento usuario</td>
+																			</tr>
+																			<tr>
+																				<td valign="top"><select id="tipoDocumentoUsuario" name="tipoDocumentoUsuario" class="fieldEdit dummyField" size="1">	<option value="CC" selected="selected">Cédula de ciudadanía</option>
+	<option value="CE">Cédula de extranjería</option>
+	<option value="PA">Pasaporte</option>
+	<option value="TI">Tarjeta de identidad</option>
+	<option value="RC">Registro civil</option>
+	<option value="CD">Carné diplomático</option>
+	<option value="SC">Salvoconducto de permanencia</option>
+	<option value="PE">Permiso especial de permanencia</option>
+</select>
+																				</td>
+																				<td valign="top"><input id="numeroDocumentoUsuario" type="text" name="numeroDocumentoUsuario" value="" class="fieldEdit dummyField required" maxlength="16" size="16" />
+																				</td>
+																			</tr>
+																			<tr>
+																				<td colspan="2" class="TextLeft">Clave</td>
+																			</tr>
+																			<tr>
+																				<td valign="top" colspan="2" class="TextJustify"><input id="clave" type="password" name="clave" value="" maxlength="4" size="4" class="fieldEdit dummyField required" />  Por  seguridad, utilice el teclado virtual.
+																				</td>
+																				
+																			</tr>
+																			
+																		</table>
+																	</td>
+																	<td width="20"> </td>
+																	<td width="110" valign="top">
+																		<table width="100%" border="0" cellspacing="3" cellpadding="0">
+																			<tr>
+																				<td colspan="3"><img src="/Web/faces/javax.faces.resource/89/generales/images/imgSpacer.gif" height="10" width="20" />
+																				</td>
+																			</tr>
+																			<tr>
+																				<td><img src="/Web/faces/javax.faces.resource/89/generales/images/numeros/img_1.jpg" alt="1" height="27" onclick="keyboard( { 'number': '1', 'inputId': 'clave' } );" style="border-style: none;" width="27" />
+																				</td>
+																				<td><img src="/Web/faces/javax.faces.resource/89/generales/images/numeros/img_2.jpg" alt="2" height="27" onclick="keyboard( { 'number': '2', 'inputId': 'clave' } );" style="border-style: none;" width="27" />
+																				</td>
+																				<td><img src="/Web/faces/javax.faces.resource/89/generales/images/numeros/img_3.jpg" alt="3" height="27" onclick="keyboard( { 'number': '3', 'inputId': 'clave' } );" style="border-style: none;" width="27" />
+																				</td>
+																			</tr>
+																			<tr>
+																				<td><img src="/Web/faces/javax.faces.resource/89/generales/images/numeros/img_4.jpg" alt="4" height="27" onclick="keyboard( { 'number': '4', 'inputId': 'clave' } );" style="border-style: none;" width="27" />
+																				</td>
+																				<td><img src="/Web/faces/javax.faces.resource/89/generales/images/numeros/img_5.jpg" alt="5" height="27" onclick="keyboard( { 'number': '5', 'inputId': 'clave' } );" style="border-style: none;" width="27" />
+																				</td>
+																				<td><img src="/Web/faces/javax.faces.resource/89/generales/images/numeros/img_6.jpg" alt="6" height="27" onclick="keyboard( { 'number': '6', 'inputId': 'clave' } );" style="border-style: none;" width="27" />
+																				</td>
+																			</tr>
+																			<tr>
+																				<td><img src="/Web/faces/javax.faces.resource/89/generales/images/numeros/img_7.jpg" alt="7" height="27" onclick="keyboard( { 'number': '7', 'inputId': 'clave' } );" style="border-style: none;" width="27" />
+																				</td>
+																				<td><img src="/Web/faces/javax.faces.resource/89/generales/images/numeros/img_8.jpg" alt="8" height="27" onclick="keyboard( { 'number': '8', 'inputId': 'clave' } );" style="border-style: none;" width="27" />
+																				</td>
+																				<td><img src="/Web/faces/javax.faces.resource/89/generales/images/numeros/img_9.jpg" alt="9" height="27" onclick="keyboard( { 'number': '9', 'inputId': 'clave' } );" style="border-style: none;" width="27" />
+																				</td>
+																			</tr>
+																			<tr>
+																				<td> </td>
+																				<td><img src="/Web/faces/javax.faces.resource/89/generales/images/numeros/img_0.jpg" alt="0" height="27" onclick="keyboard( { 'number': '0', 'inputId': 'clave' } );" style="border-style: none;" width="27" />
+																				</td>
+																				<td> </td>
+																			</tr>
+																		</table>
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+														
+													<tr>
+														<td><img src="/Web/faces/javax.faces.resource/89/generales/images/img_line_Titulos.gif" height="11" width="100%" /><img src="/Web/faces/javax.faces.resource/89/generales/images/imgSpacer.gif" alt="0" height="11" width="20" />
+														</td>
+													</tr>
+													<tr>
+														<td height="40">
+															<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+																<tr>
+																	<td style=" width : 96px;"><a id="autenticar" href="#" onclick="jsf.util.chain(this,event,'return validarFormAuth();','mojarra.jsfcljs(document.getElementById(\'auth\'),{\'autenticar\':\'autenticar\'},\'\')');return false"><img src="/Web/faces/javax.faces.resource/89/generales/images/botones/bot_ingresar.jpg" class="borderImage" /></a>
+																	</td>
+																	<td style=" width : 96px;"><a id="reset" href="#" onclick="jsf.util.chain(this,event,'borrarFormulario( this, event );','mojarra.jsfcljs(document.getElementById(\'auth\'),{\'reset\':\'reset\'},\'\')');return false"><img src="/Web/faces/javax.faces.resource/89/generales/images/botones/bot_borrar.jpg" class="borderImage" /></a>
+																	</td>
+																	<td align="right" style=" width : 126px;">
+																		<a onclick="recordarClave();return false;" class="LinkDetails">Olvidó su clave</a> 
+																		<!-- angela.garcia -->
+																			<a id="abrirInstructivo" onclick="javascipt:window.open('/Web/faces/javax.faces.resource/89/generales/docs/InstructivoPlanAC.pdf');" class="LinkDetails">Recomendaciones de seguridad</a>
+																		<!-- fin -->
+																	</td>
+																	<td align="left" style=" width : 61px;">
+	<link href="/Web/faces/javax.faces.resource/89/generales/css/ayudas/jquery.window.css?versionCSS=CCS_V007" rel="stylesheet" type="text/css" /><span id="includeAyuda040:A35-panelAyuda"><input id="includeAyuda040:A35-nameHelp" type="hidden" name="includeAyuda040:A35-nameHelp" /><a id="includeAyuda040:A35-btn_Ayuda" href="#" onclick="jsf.util.chain(this,event,'mostrarContenidoAyuda(this, event,\'A35\',\'includeAyuda040\'); return  false;','mojarra.jsfcljs(document.getElementById(\'auth\'),{\'includeAyuda040:A35-btn_Ayuda\':\'includeAyuda040:A35-btn_Ayuda\'},\'\')');return false"><img src="/Web/faces/javax.faces.resource/89/generales/images/botones_pequenos/iconAyuda.png" title="Ayuda" class="alineacionButtonHelp" /></a></span>
+			
+			<div id="divInsert"></div>
+			<div id="ayudaContainer" style="display: none;">
+				<div id="A35-modal-ayuda" title="Ayuda">
+					<div id="divVacio">
+						<div id="borderGridConsulta" class="container" style="width: 98%"></div>
+						<center><input id="includeAyuda040:A35-cerrar" type="image" src="/Web/faces/javax.faces.resource/89/generales/images/botones/bot_regresar.jpg" name="includeAyuda040:A35-cerrar" style="border: 0;" onclick="cerrar(this, event,'A35'); return;" />
+						</center><input id="includeAyuda040:A35-textoAyuda" type="hidden" name="includeAyuda040:A35-textoAyuda" />
+					</div>
+				</div>
+			</div>
+
+			<div style="display: none;">
+				<div id="dialog-errorAyuda" title="Error al mostrar la ayuda" class="menInformacionModal"><span id="includeAyuda040:ErrorAyuda">Error con la ayuda</span>
+				</div>
+			</div></td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+								<td width="5"> </td>
+								<td width="210" valign="top">
+									<table width="210" border="0" align="center" cellpadding="0" cellspacing="0">
+										<tr>
+											<td class="TD_tablas">
+												<table width="100%" border="0" cellspacing="0" cellpadding="0">
+													<tr>
+														<td class="titAzul_1">Nuevo usuario</td>
+													</tr>
+													<tr>
+														<td><img src="/Web/faces/javax.faces.resource/89/generales/images/img_line_Titulos.gif" height="11" width="100%" /><img src="/Web/faces/javax.faces.resource/89/generales/images/imgSpacer.gif" height="11" width="20" />
+														</td>
+													</tr>
+													<tr>
+														<td height="136">
+															<table width="85%" border="0" align="center" cellpadding="0" cellspacing="0">
+															<tr>
+																<td><img src="/Web/faces/javax.faces.resource/89/generales/images/imgSpacer.gif" height="11" width="20" />
+																</td>
+															</tr>
+																<tr>
+																	<td class="TextJustify">Para ingresar a <b>SuAporte</b> y realizar todas las operaciones pertinentes, es necesario ingresar los datos de autenticación solicitados en el formulario.<br /><br />
+                                                                        Si desea utilizar nuestros servicios y no posee una clave de acceso, solicítela aquí. <br />
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+													<tr>
+													</tr>
+													<tr>
+														<td><img src="/Web/faces/javax.faces.resource/89/generales/images/img_line_Titulos.gif" height="11" width="100%" />
+														</td>
+													</tr>
+													<tr>
+														<td height="36" align="center"><a href="#" onclick="mojarra.jsfcljs(document.getElementById('auth'),{'j_idt193':'j_idt193'},'');return false"><img src="/Web/faces/javax.faces.resource/89/generales/images/botones/bot_solicitarClave.jpg" style="border-style: none;" title="Registrese" /></a>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+							<!--  <tr>
+							    <td class="TextJustify">
+								 <b>SuAporte es un sitio seguro. Verifíquelo usted mismo</b>
+								 <a href="http://https://www.certicamara.com/index.php?option=com_content&amp;task=view&amp;id=63" ><u>Haga clic aquí.</u></a>
+								 <br /> &nbsp;
+								</td>
+							</tr>
+							
+								<td colspan="3" valign="middle" align="center" >
+									<span class="TextCenter"><strong>SuAporte es un sitio seguro. Verif&iacute;quelo usted mismo</strong></span>&nbsp;
+									<a class="LinkDetails"  target="_blank" href="https://www.certicamara.com/index.php?option=com_content&amp;task=view&amp;id=63">Haga clic aqu&iacute;.</a>
+									<h:graphicImage  value="/Web/faces/javax.faces.resource/89/generales/images/logoCerticamara.png" ></h:graphicImage>
+								</td>
+							</tr>
+							</tr>-->
+							
+						        <td colspan="3" valign="bottom" align="center" style="padding: 0%;">
+							        <table border="0" width="95%" cellpadding="0" cellspacing="0">
+							        <tr>
+							        	<td valign="bottom" class="TextLeft" align="center">
+							        		<br /><b>SuAporte es un sitio seguro. Verifíquelo usted mismo</b>
+											 <a class="LinkDetails" target="_blank" href="http://https://www.certicamara.com/index.php?option=com_content&amp;amp;task=view&amp;amp;id=63"><u>Haga clic aquí.</u></a>
+										</td>
+							        	<td><img src="/Web/faces/javax.faces.resource/89/generales/images/logoCerticamara.png" style="display: block;    margin-left: auto;    margin-right: auto;" />
+										</td>
+							        </tr>
+							        </table>
+								</td>
+							</tr>
+							
+					
+						</table>
+					</div>
+				</td>
+			</tr>
+			<!-- tr>
+			<td align="center" valign="top" >
+			
+					SuAporte es un sitio seguro. Verif&iacute;quelo usted mismo! &nbsp;
+					<h:graphicImage  value="/Web/faces/javax.faces.resource/89/generales/images/logoCerticamara.png" style="width : 61px; height : 40px;"></h:graphicImage>
+				</td>
+			</tr-->
+		</table><input id="tokenEncripcion" type="hidden" name="tokenEncripcion" value="7971654c5423c9b44ab626772079741d" /><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="622011702548560449:8302580114407536293" autocomplete="off" />
+</form>
+	<div id="modalRecordarClave" style="display:none;">
+	<html>
+<form id="formRecordarClave" name="formRecordarClave" method="post" action="/Web/faces/index.xhtml;jsessionid=7D35BAF4E043C8E9F906EDF9029F36AD" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formRecordarClave" value="formRecordarClave" />
+
+	<div id="borderGridConsulta"><span id="panelMsjClave">
+	<div id="menExito" style="display:none;">
+	</div></span>
+	<table cellpadding="0" cellspacing="0" width="100%" align="center">
+			<tr>
+				<td class="titAzul_1" colspan="2" align="center">Recordación clave</td>
+			</tr>
+			<tr>
+				<td class="lista_alt">Identificación aportante</td>
+				<td class="lista"><select id="list_tipoDocAportante" name="list_tipoDocAportante" class="required" size="1">	<option value="CC">Cédula de ciudadanía</option>
+	<option value="NI" selected="selected">NIT</option>
+	<option value="CE">Cédula de extranjería</option>
+	<option value="PA">Pasaporte</option>
+	<option value="TI">Tarjeta de identidad</option>
+	<option value="CD">Carné diplomático</option>
+	<option value="SC">Salvoconducto de permanencia</option>
+	<option value="PE">Permiso especial de permanencia</option>
+</select> 
+				<input id="tx_idAportante" type="text" name="tx_idAportante" class="required" maxlength="16" />
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="lista_alt">Identificación usuario</td>
+				<td class="lista"><select id="list_tipoDocUsuario" name="list_tipoDocUsuario" class="required" size="1">	<option value="CC">Cédula de ciudadanía</option>
+	<option value="CE">Cédula de extranjería</option>
+	<option value="PA">Pasaporte</option>
+	<option value="TI">Tarjeta de identidad</option>
+	<option value="RC">Registro civil</option>
+	<option value="CD">Carné diplomático</option>
+	<option value="SC">Salvoconducto de permanencia</option>
+	<option value="PE">Permiso especial de permanencia</option>
+</select> 				
+				<input id="tx_idUsuario" type="text" name="tx_idUsuario" class="required" maxlength="16" />
+				</td>
+			</tr>
+		</table><br />
+		<div id="separador">
+		<center><span id="boton"><a id="bt_continuar" href="#" onclick="jsf.util.chain(this,event,'return jQuery(\'#formRecordarClave\').validate().form();','mojarra.ab(this,event,\'action\',\'formRecordarClave\',\'salida panelMsjClave boton\',{\'onevent\':respuestaClave})');return false"><img id="imagenContinuar" src="/Web/faces/javax.faces.resource/89/generales/images/botones/bot_continuar.jpg" class="borderImage" /></a></span>
+			 
+			<a id="bt_cancelar" href="#" onclick="mojarra.jsfcljs(document.getElementById('formRecordarClave'),{'bt_cancelar':'bt_cancelar'},'');return false"><img id="imagenCancelar" src="/Web/faces/javax.faces.resource/89/generales/images/botones/bot_cancelar.jpg" class="borderImage" /></a>
+		</center>
+		</div>
+		</div>
+		<div id="separador"></div><span id="salida"></span><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="622011702548560449:8302580114407536293" autocomplete="off" />
+</form>
+	</html>
+	<script type="text/javascript">
+// <![CDATA[
+function respuestaClave(data){
+	if(data.status == 'begin'){
+		jQuery.blockUI( {"message": "<img src='/Web/faces/javax.faces.resource/89/generales/images/cargando.gif' /><span style='display: block;'>Espere un momento ...</span>"} );
+ 	}else if(data.status == 'success'){
+     	jQuery.unblockUI();
+     	if(jQuery('.message').text() != ''){ 
+     		//setTimeout( function(){ jQuery('#bt_cancelar').click(); }, 2000 ); 
+     		//alert(jQuery('.message').text());
+     		jQuery('#panelMsjClave').hide();
+     		$('<div></div>').dialog({
+     	        modal: true,
+     	        title: "Confirmación",
+     	       	width: 600,
+     	        open: function () {
+     	            var markup = jQuery('.message').text();
+     	            $(this).html(markup);
+     	        },
+     	        buttons: {
+     	            "Cerrar": function () {
+     	                $(this).dialog("close");
+     	                jQuery('#bt_cancelar').click();
+     	            }
+     	        }
+     	    });
+     	}
+	}
+}
+// ]]>   
+</script>
+	</div>
+	
+	<div id="modalTerminosCondiciones" style="display:none;"><span>Aceptar: Este vínculo está deshabilitado, ya que no se ha anidado en un formulario JSF.</span> 
+	<span>Cancelar: Este vínculo está deshabilitado, ya que no se ha anidado en un formulario JSF.</span>
+	</div>
+
+	<div id="modalTratamientoDatosPersonales" style="display: none;"><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<body>
+
+	<div id="modalPoliticaTratamientoDatosPersonales" style="display: none;">
+<form id="formModalTratamientoDatosPersonales" name="formModalTratamientoDatosPersonales" method="post" action="/Web/faces/index.xhtml;jsessionid=7D35BAF4E043C8E9F906EDF9029F36AD" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formModalTratamientoDatosPersonales" value="formModalTratamientoDatosPersonales" />
+
+			<div id="TextCenter">
+				<p align="justify">
+				Nuestra política de tratamiento de datos personales ha cambiado.
+				<br />
+				Puedes revisarla haciendo CLIC
+				<a href="http://www.arus.com.co/compania/" target="_blank"> AQUÍ </a>
+				<br /><br />
+				Por disposiciones del Artículo 5 del Decreto 1377 de 2013, requerimos la autorización
+				del tratamiento de tus datos personales para poder continuar con el proceso liquidació y/o
+				pago de tus aportes; si estás de acuerdo da clic en Aceptar.
+				</p>
+
+				<div id="separador" align="center"><a href="#" onclick="jsf.util.chain(this,event,'jQuery(\'#modalPoliticaTratamientoDatosPersonales\').dialog(\'close\');','mojarra.jsfcljs(document.getElementById(\'formModalTratamientoDatosPersonales\'),{\'formModalTratamientoDatosPersonales:j_idt246\':\'formModalTratamientoDatosPersonales:j_idt246\'},\'\')');return false"><img src="/Web/faces/javax.faces.resource/89/generales/images/botones/bot_aceptar.jpg" class="borderImage" /></a>
+					 
+
+					<a href="#" onclick="jsf.util.chain(this,event,'jQuery(\'#modalPoliticaTratamientoDatosPersonales\').dialog(\'close\');','mojarra.jsfcljs(document.getElementById(\'formModalTratamientoDatosPersonales\'),{\'formModalTratamientoDatosPersonales:j_idt249\':\'formModalTratamientoDatosPersonales:j_idt249\'},\'\')');return false"><img src="/Web/faces/javax.faces.resource/89/generales/images/botones/bot_cancelar.jpg" class="borderImage" /></a>
+				</div>
+
+			</div><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="622011702548560449:8302580114407536293" autocomplete="off" />
+</form>
+	</div>
+
+	<script type="text/javascript">
+		function mostrarModalPoliticaDatosPersonales(){
+
+			jQuery("#modalPoliticaTratamientoDatosPersonales").dialog( {
+				closeOnEscape: false,
+				resizable : false,
+				width : 400,
+				show : "slide",
+				title: "Información Importante",
+				modal : true			
+			});
+			
+		}
+</script>
+
+</body>
+</html>
+	</div>
+
+	<script type="text/javascript">
+		// <![CDATA[
+		jQuery( function () {
+			jQuery( "#auth" ).validate( {
+				rules: {
+					"tipoDocumentoEmpresa": { "required": true },
+					"tipoDocumentoUsuario": { "required": true },
+					"numeroDocumentoEmpresa": { "validarAlfaNumerico": true, "required": true },
+					"numeroDocumentoUsuario": { "validarAlfaNumerico": true, "required": true },
+					"clave": { "numeroValido": true, "required": true }
+				},
+				errorPlacement: function( error, element ) {
+					element.parent().append( "<div/>" ).append( error );
+				} 
+			} 
+			);
+
+					// jQuery( "#auth\\:clave" ).keydown( function () { return false; } );
+
+			if ( jQuery( "#politicaTratamientoDatosPersonales" ).val() == 'true' ) {
+				mostrarModalPoliticaDatosPersonales();
+				jQuery( "#politicaTratamientoDatosPersonales" ).val('false');
+			}
+			
+		} );		
+		
+	    function keyboard( args ){
+		    
+	        if ( !args || !args.number || !args.inputId ){
+	            return false;
+	        }
+	
+	        if ( jQuery( "#" + args.inputId ).val().length < jQuery( "#" + args.inputId ).attr( "maxlength" )  ){
+	        		jQuery( "#" + args.inputId ).val( jQuery( "#" + args.inputId ).val() + args.number );
+	        }
+	
+	        return false;
+	    }
+
+	    function borrarFormulario( el, ev )
+	    {
+		    if ( !el || !ev ){
+			    return false;
+		    }
+
+		    jQuery( ".dummyField" ).each( function () {
+		    	jQuery( "#" + jQuery( this ).attr( "id" ).replace( ":", "\\:" ) ).rules( "remove" );
+		    } );	    	
+	    }
+
+	    function recordarClave(){
+
+		    jQuery('#panelMsjClave').css('display','none');
+
+	    	jQuery('#modalRecordarClave').dialog( {
+				resizable : false,
+				height : 400,
+				width : 600,
+				draggable:false,
+				show : "slide",
+				closeText: "X",
+				title: "Olvid\xf3 su Clave?",
+				modal : true			
+			});
+			return false;
+		}
+
+	    function encriptarClave(){
+			jQuery('#clave').val(MD5((jQuery('#clave').val()).concat(jQuery('#tokenEncripcion').val())));
+		}
+
+	    function validarFormAuth(){
+		    if(jQuery('#auth').validate().form()){
+		    	encriptarClave();
+				return true;
+			    }
+		    return false;
+		}
+
+	    jQuery(document).ready(function () {
+	        jQuery.getJSON("https://freegeoip.net/json/", function (data) {
+	            console.log(data);
+	            jQuery('#ipPublicaCliente').val(data.ip);
+	        });
+	    });
+		// ]]>    
+	</script></span></td>
+<td class=" superior"><span id="rightnavNoticias" style="width: 180px;">
+<html>
+
+<body>
+<form id="form" name="form" method="post" action="/Web/faces/index.xhtml;jsessionid=7D35BAF4E043C8E9F906EDF9029F36AD" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="form" value="form" />
+<div id="panelLista">
+	<table width="160" border="0" align="center" cellpadding="0" cellspacing="0">
+		<tr>
+			<td valign="top" class="titBox"></td>			
+		</tr>
+		<tr>
+			<td class="titBoxC">Resolución 3016/2017</td>
+		</tr>
+		<tr>
+			<td valign="top"><img src="/Web/faces/javax.faces.resource/89/generales/images/img_boxNoticias_line.png" height="10" width="178" /></td>
+		</tr>
+		<tr>
+			<td valign="top" class="noticiasBox">
+			<table width="150" border="0" align="center" cellpadding="0" cellspacing="0">
+				<tr>
+					<td><img src="/Web/faces/javax.faces.resource/89/generales/images/imgSpacer.gif" height="10" width="20" /></td>
+				</tr>
+				<tr>
+					<td class="textoIntro">Le contamos los cambios en PILA que se originan en la Res. 3016/2017
+					<div class="leer_mas_news"><span id="listaNoticias:0:noticiaLink">
+							<a class="LinkDetails" target="_blank" href="https://www.arus.com.co/resolucion-3016-de-2017/">Leer más...</a></span>
+					</div>
+					</td>
+					
+				</tr>
+				
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top"><img src="/Web/faces/javax.faces.resource/89/generales/images/img_boxNoticias03.png" height="14" width="178" /></td>
+		</tr>
+	</table>
+	<table width="160" border="0" align="center" cellpadding="0" cellspacing="0">
+		<tr>
+			<td valign="top" class="titBox"></td>			
+		</tr>
+		<tr>
+			<td class="titBoxC">Novedad ausentismo</td>
+		</tr>
+		<tr>
+			<td valign="top"><img src="/Web/faces/javax.faces.resource/89/generales/images/img_boxNoticias_line.png" height="10" width="178" /></td>
+		</tr>
+		<tr>
+			<td valign="top" class="noticiasBox">
+			<table width="150" border="0" align="center" cellpadding="0" cellspacing="0">
+				<tr>
+					<td><img src="/Web/faces/javax.faces.resource/89/generales/images/imgSpacer.gif" height="10" width="20" /></td>
+				</tr>
+				<tr>
+					<td class="textoIntro">Al reportar novedad de ausentismo, no realices aporte a riesgos. Ingresa días e IBC de la novedad, tarifa y cotización en cero.
+					<div class="leer_mas_news">
+					</div>
+					</td>
+					
+				</tr>
+				
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top"><img src="/Web/faces/javax.faces.resource/89/generales/images/img_boxNoticias03.png" height="14" width="178" /></td>
+		</tr>
+	</table>
+	<table width="160" border="0" align="center" cellpadding="0" cellspacing="0">
+		<tr>
+			<td valign="top" class="titBox">Más noticias</td>
+		</tr>
+		<tr>
+			<td valign="top" class="noticiasBox">
+			<table border="0" align="center" cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="pag" class="textoIntro"><span id="paginador_noticias:contenedorPaginador">
+<script type="text/javascript">
+//<![CDATA[
+	function runAfterPaginationinvalid( data ){
+		if( "success" == data.status ){
+			if( "invalid" != "" && "invalid" != "invalid" ){
+				invalid.apply( this, [data] );
+			}
+		}
+	}
+//]]>
+</script><input id="paginador_noticias:page" type="hidden" name="paginador_noticias:page" value="1" /><input id="paginador_noticias:lastPage" type="hidden" name="paginador_noticias:lastPage" value="1" /><input id="paginador_noticias:pageSize" type="hidden" name="paginador_noticias:pageSize" /><input id="paginador_noticias:onevent" type="hidden" name="paginador_noticias:onevent" value="invalid" /><span id="paginador_noticias:min"><img src="/Web/faces/javax.faces.resource/89/generales/images/navegacion/primero_off.png" style="padding: 0px 5px;" /><img src="/Web/faces/javax.faces.resource/89/generales/images/navegacion/anterior_off.png" style="padding: 0px 5px;" />1 de 1 <img src="/Web/faces/javax.faces.resource/89/generales/images/navegacion/siguiente_off.png" style="padding: 0px 5px;" /><img src="/Web/faces/javax.faces.resource/89/generales/images/navegacion/ultimo_off.png" style=" padding: 0px 5px;" /><a id="paginador_noticias:btn_paginarMin" href="#" style="border: none; display: none;  padding: 0px 5px;" onclick="mojarra.ab(this,event,'action','@form','panelLista',{'onevent':runAfterPaginationinvalid});return false"></a></span></span>
+					</td>
+				</tr>
+			</table>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top"><img src="/Web/faces/javax.faces.resource/89/generales/images/img_boxNoticias03.png" height="14" width="178" /></td>
+		</tr>
+	</table></div><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="622011702548560449:8302580114407536293" autocomplete="off" />
+</form>
+	<table width="160" border="0" align="center" cellpadding="0" cellspacing="0">
+		<tr>
+		<td>
+			 
+		</td>
+		</tr>
+	</table>
+
+</body>
+
+</html></span></td>
+</tr>
+</tbody>
+</table>
+
+
+		<div id="footer">Versión SuAporte: V101-3<br />
+	<a class="LinkDetails" target="_blank" href="http://"><u></u></a>
+	servicioalcliente@arus.com.co
+	<a class="LinkDetails" target="_blank" href="http://"><u></u></a><br />
+    Líneas de Servicio al Cliente:<br />
+    Barranquilla: 385 24 44 - Bogotá: 742 44 88 - Bucaramanga: 697 87 27 - Cali: 485 94 44 -
+    Cartagena: 693 77 27 - Pereira: 340 13 27 - Manizales: 892 80 27 - Medellín: 604 27 27 -<br />
+    Desde otras ciudades: 018000 51 99 77. Línea Ética: 018000 517806 - <a class="linkMailto" href="http://mailto:servicioalcliente@arus.com.co"><u>servicioalcliente@arus.com.co</u></a>
+		</div>
+		<script type="text/javascript">
+		    	//Se muestran los primeros 45 caracteres de la razon social
+			 	jQuery("#nombreEmpresa").text (jQuery("#nombreEmpresa").text().substring(0,45) );
+            </script>
+	</div></body>
+<script>
+
+</script>
+</html>
